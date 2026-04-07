@@ -1,8 +1,8 @@
 import random
 from typing import Any, Dict, List, Optional, Tuple
 
-from entities.enemy import Enemy
-from entities.entity import Item, item_from_dict
+from src.entities import Enemy
+from src.entities.entity import Item, item_from_dict
 
 class Room:
     def __init__(self, x: int, y: int, width: int, height: int):

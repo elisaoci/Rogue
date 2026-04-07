@@ -1,9 +1,9 @@
 import math
-from typing import List, Tuple, TYPE_CHECKING, Optional
+from typing import List, Tuple, TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from level.level import Level
-    from entities.entity import Player
+    from src.level import Level
+    from src.entities.entity import Player
 
 
 class RayCast3D:

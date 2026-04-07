@@ -1,14 +1,13 @@
 import curses
-import math
 from typing import List, Optional, Sequence, Tuple, TYPE_CHECKING
 
-from entities.entity import Item, Key
-from entities.enemy import EnemyType, Enemy
-from level.level import Tile
+from src.entities.entity import Item, Key
+from src.entities import EnemyType, Enemy
+from src.level import Tile
 from .raycast_3d import RayCast3D
 
 if TYPE_CHECKING:
-    from game import GameSession, GameStats
+    from src.game import GameSession, GameStats
 
 ITEM_SYMBOLS = {
     "food": "f",

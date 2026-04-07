@@ -2,8 +2,8 @@ import random
 from typing import List, Tuple, Dict, Optional, Set
 from collections import deque
 
-from entities.enemy import Enemy, EnemyType
-from entities.entity import Key, Elixir, Food, Scroll, Weapon
+from src.entities import Enemy, EnemyType
+from src.entities.entity import Key, Elixir, Food, Scroll, Weapon
 from .level import Level
 from .room import Room
 

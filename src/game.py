@@ -5,12 +5,12 @@ from dataclasses import asdict, dataclass
 from typing import Deque, Dict, Optional
 import time
 
-from ai.enemy_ai import EnemyAI
-from entities.enemy import Enemy, EnemyType
-from entities.entity import Player, Weapon
-from level.generator import LevelGenerator
-from level.level import Level, Tile
-from level.balancing import DynamicBalancingSystem
+from src.ai import EnemyAI
+from src.entities import Enemy, EnemyType
+from src.entities.entity import Player, Weapon
+from src.level.generator import LevelGenerator
+from src.level import Level, Tile
+from src.level import DynamicBalancingSystem
 
 
 @dataclass

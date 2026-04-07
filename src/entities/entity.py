@@ -5,7 +5,7 @@ import random
 from typing import Any, Dict, List, Optional, TYPE_CHECKING, Type, Set
 
 if TYPE_CHECKING:
-    from ..level.level import Level
+    from src.level.level import Level
 
 
 @dataclass

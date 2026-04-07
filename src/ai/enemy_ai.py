@@ -2,8 +2,8 @@ import random
 from heapq import heappop, heappush
 from typing import List, Tuple
 
-from entities.enemy import Enemy, EnemyType
-from level.level import Level
+from src.entities.enemy import Enemy, EnemyType
+from src.level.level import Level
 
 
 class EnemyAI:

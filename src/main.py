@@ -1,10 +1,10 @@
 import curses
 
-from datalayer.leaderboard import load_leaderboard, record_attempt
-from datalayer.save_load import clear_session, has_session, load_session, save_session
-from game import GameSession
-from presentation.input_handler import InputHandler
-from presentation.renderer import Renderer
+from src.datalayer.leaderboard import load_leaderboard, record_attempt
+from src.datalayer.save_load import clear_session, has_session, load_session, save_session
+from src.game import GameSession
+from src.presentation.input_handler import InputHandler
+from src.presentation import Renderer
 
 
 def _handle_inventory(renderer: Renderer, session: GameSession, item_type: str):

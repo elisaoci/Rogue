@@ -1,12 +1,12 @@
 from collections import defaultdict, deque
 from typing import Any, Dict, List, Optional, Set, Tuple, TYPE_CHECKING
 
-from entities.enemy import Enemy
-from entities.entity import Item, Key, item_from_dict
+from src.entities import Enemy
+from src.entities.entity import Item, Key, item_from_dict
 from .room import Room
 
 if TYPE_CHECKING:
-    from entities.entity import Player
+    from src.entities.entity import Player
 
 
 class Tile:
