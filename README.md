@@ -86,19 +86,23 @@ python src/main.py
 
 ```bash
 src/
-├── main.py                 # точка входа
-├── domain/                 # бизнес-логика и сущности
-│   ├── game.py
-│   ├── player.py
-│   ├── enemy.py
-│   ├── item.py
+├── main.py
+├── game.py
+├── presentation/
+│   ├── renderer.py
+│   ├── input_handler.py
+│   └── raycast_3d.py
+├── entities/
+│   ├── entity.py
+│   └── enemy.py
+├── level/
+│   ├── generator.py
 │   ├── level.py
-│   └── room.py
-├── presentation/           # рендеринг и управление
-│   ├── render.py
-│   └── input_handler.py
-├── data_layer/             # сохранение и загрузка
-│   └── save_manager.py
-└── utils/                  # вспомогательные функции
-    └── generators.py
+│   ├── room.py
+│   └── balancing.py
+├── ai/
+│   └── enemy_ai.py
+└── datalayer/
+    ├── save_load.py
+    └── leaderboard.py
 ```
