@@ -1,0 +1,32 @@
+[
+  {
+    "treasure": 70,
+    "level_reached": 2,
+    "result": "defeat",
+    "steps": 206,
+    "enemies_defeated": 4,
+    "food_consumed": 0,
+    "elixirs_used": 0,
+    "scrolls_used": 0,
+    "hits_dealt": 16,
+    "hits_taken": 18,
+    "damage_dealt": 157,
+    "damage_taken": 105,
+    "timestamp": "2025-11-28T18:40:51.917532"
+  },
+  {
+    "treasure": 54,
+    "level_reached": 3,
+    "result": "defeat",
+    "steps": 157,
+    "enemies_defeated": 3,
+    "food_consumed": 0,
+    "elixirs_used": 0,
+    "scrolls_used": 0,
+    "hits_dealt": 14,
+    "hits_taken": 27,
+    "damage_dealt": 134,
+    "damage_taken": 100,
+    "timestamp": "2025-11-28T18:42:14.396922"
+  }
+]
